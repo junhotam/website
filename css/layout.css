@@ -190,7 +190,7 @@ body {
 /* Large devices (laptops/desktops, 1000px and below) */
 @media only screen and (max-width: 1000px) {
   #main-content {
-    margin: 225px 75px;
+    margin: 150px 75px;
   }
 }
 
