@@ -27,7 +27,13 @@ body {
   gap: 96px;
 }
 
+/* Nav Bar*/
 
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 
 
 /* Portfolio Header */
