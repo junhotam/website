@@ -57,8 +57,8 @@ a.icon-link:hover {
 
 /* Button Styling */
 a.buttonnoborder {
-  padding: 8px 16px;
-  border: 3px solid #ffffff;
+  padding: 4px 16px;
+  border: 2px solid #ffffff;
   border-radius: 50px;
   color: black;
   text-decoration: none;
