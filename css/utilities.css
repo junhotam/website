@@ -58,16 +58,6 @@ a.icon-link:hover {
 /* Button Styling */
 a.buttonnoborder {
   padding: 8px 16px;
-  color: black;
-  text-decoration: none;
-  width: fit-content;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-}
-
-a.button {
-  padding: 8px 16px;
   border: 3px solid #141414;
   border-radius: 50px;
   color: black;
@@ -78,7 +68,25 @@ a.button {
   align-items: center;
 }
 
+a.button {
+  padding: 8px 16px;
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+  color: black;
+  text-decoration: none;
+  width: fit-content;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
 a.button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+
+a.buttonnoborder:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   cursor: pointer;
