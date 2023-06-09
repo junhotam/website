@@ -102,17 +102,12 @@ a.buttonnoborder:hover {
   align-items: center;
   gap: 16px;
   position: fixed;
-  bottom: 0;
+  bottom: -100px;
   left: 0;
   right: 0;
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   padding: 30px 50px;
-  transform: translateY(100%);
-  transition: transform 0.3s ease-in-out;
-}
-
-.footer-visible {
-  transform: translateY(0%);
+  transition: bottom 0.3s ease-in-out;
 }
 
 
