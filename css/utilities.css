@@ -112,9 +112,8 @@ a.buttonnoborder:hover {
 }
 
 .footer-visible {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
-
 
 
 /* Link Styling */
