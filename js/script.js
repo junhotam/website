@@ -8,7 +8,9 @@ window.addEventListener('scroll', function() {
   var footer = document.getElementById('footer');
   var scrollPosition = window.innerHeight + window.pageYOffset;
   var bodyHeight = document.body.offsetHeight;
-  if (scrollPosition >= bodyHeight) {
+  var offset = 200; // Adjust this value as needed
+
+  if (scrollPosition >= bodyHeight - offset) {
     footer.style.bottom = '0';
   } else {
     footer.style.bottom = '-100px';
