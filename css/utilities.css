@@ -97,12 +97,17 @@ a.buttonnoborder:hover {
 
 #footer {
   width: 100%;
-  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   padding: 30px 50px;
+  background-color: #f5f5f5;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
 }
+
 
 /* Link Styling */
 a.no-underline {
