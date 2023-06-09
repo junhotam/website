@@ -95,7 +95,7 @@ a.buttonnoborder:hover {
 
 /* Footer Styling */
 
-##footer {
+#footer {
   width: 100%;
   position: fixed;
   bottom: -100px;
