@@ -11,9 +11,9 @@ window.addEventListener('scroll', function() {
   var bodyHeight = document.body.offsetHeight;
   var offset = -100; // Adjust this value as needed
 
-  if (scrollPosition >= bodyHeight - offset) {
-    footer.classList.add('footer-visible');
+  if (scrollPosition >= bodyHeight + offset) {
+    footer.style.bottom = '0';
   } else {
-    footer.classList.remove('footer-visible');
+    footer.style.bottom = '-100px';
   }
 });
