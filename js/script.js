@@ -4,15 +4,16 @@ if (document.getElementById('my-work-link')) {
   })
 }
 
+
 window.addEventListener('scroll', function() {
   var footer = document.getElementById('footer');
   var scrollPosition = window.innerHeight + window.pageYOffset;
   var bodyHeight = document.body.offsetHeight;
-  var offset = -100; // Adjust this value as needed
+  var offset = -150; // Adjust this value as needed
 
   if (scrollPosition >= bodyHeight - offset) {
-    footer.style.bottom = '0';
+    footer.classList.add('footer-visible');
   } else {
-    footer.style.bottom = '-100px';
+    footer.classList.remove('footer-visible');
   }
 });
