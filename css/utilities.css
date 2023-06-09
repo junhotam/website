@@ -107,7 +107,16 @@ a.buttonnoborder:hover {
   right: 0;
   background-color: #ffffff;
   padding: 30px 50px;
-  transition: bottom 0.3s ease-in-out;
+  animation: slideInFooter 0.3s ease-in-out forwards;
+}
+
+@keyframes slideInFooter {
+  from {
+    bottom: -100px;
+  }
+  to {
+    bottom: 0;
+  }
 }
 
 
