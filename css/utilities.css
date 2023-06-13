@@ -32,9 +32,10 @@ a.icon-link:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
+  z-index: 999;
 }
 
 .nav-title-link {
