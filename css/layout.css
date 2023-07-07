@@ -15,6 +15,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+canvas {
+  display: block;
+}
+
 
 
 
@@ -141,6 +145,19 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+#iframe-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-basis: 50%;
+}
+
+#iframe-container iframe {
+  width: 100%;
+  height: auto;
+  border: none;
 }
 
 .project-details-content {
